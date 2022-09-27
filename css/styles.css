@@ -1,4 +1,50 @@
-body{
-  width:1000px;
-  margin:0px auto;
+
+/*Navbar principal y del footer*/
+li{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+}
+a{
+  text-decoration: none;
+}
+
+/*estilos del Main*/
+.boton{
+  font-family: 'Lora', serif;
+  
+}
+.imgcentral,.imgMain{
+  box-shadow: 5px 14px 5px #999;
+  border-radius: 7px;
+}
+.imgMain{
+  width: 400px;
+  height: 300px;
+}
+/*estilos form*/
+.bbBoton{
+  width: 350px;
+  height: 50px;
+  border-radius: 10px;
+}
+.bbBoton:hover{
+  background-color: black;
+}
+/* Estilos del footer*/
+h3{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:40px;
+}
+.textFo{
+  font-family: 'Josefin Sans', sans-serif;
+}
+.barrio{
+  font-size: 30px;
+}
+.pie{
+  background-color: rgb(52, 152, 219 ) ;
+}
+.articulo{
+  background-color: rgb(133, 193, 233);
 }
